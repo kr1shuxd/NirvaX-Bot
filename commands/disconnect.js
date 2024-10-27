@@ -1,5 +1,5 @@
 
-const { EMOJI_DONE } = require('../config.json');
+const { EMOJI_DONE } = require('../config.js');
 
 module.exports = {
     name: "disconnect",
