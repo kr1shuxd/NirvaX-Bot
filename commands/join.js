@@ -1,4 +1,4 @@
-const distube = require('../index.js');
+const config = require("../config.js");
 const { MessageEmbed } = require("discord.js");
 const { EMOJI_DONE ,EMOJI_ERROR } = require("../config.json")
 module.exports = {
