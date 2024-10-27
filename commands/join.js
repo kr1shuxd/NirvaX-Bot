@@ -3,7 +3,7 @@ const { MessageEmbed } = require("discord.js");
 const { EMOJI_DONE ,EMOJI_ERROR } = require("../config.json")
 module.exports = {
     name: "join",
-    aliases: ["j", "247", "24/7", "24x7"],
+    aliases: ["j", "247", "24/7", "24x7", "aaja"],
     description: "Join your VC for 27/7",
     async execute(message, args) {
         const { channel } = message.member.voice;
