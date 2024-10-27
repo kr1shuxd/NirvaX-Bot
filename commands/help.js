@@ -37,6 +37,8 @@ Welcome to ${botName}!
 
 Your ultimate music companion on Discord. Here are the available commands:
 
+[ /join    ] - Joins voice channel for 24/7.
+[ /disconnect    ] - Disconnects from the voice channel.
 [ /play    ] - Start playing the songs.
 [ /pause   ] - Pause the current song.
 [ /resume  ] - Resume the current song.
