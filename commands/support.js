@@ -39,7 +39,7 @@ module.exports = {
               url: 'https://discord.gg/xQF9f9yUEM'
           })
             .setDescription(`➡️ **Join our Discord server for support and updates:**\n- Discord - ${supportServerLink}\n\n➡️ **Follow us on:**\n- YouTube - ${youtubeLink}`)
-            .setImage('https://cdn.discordapp.com/attachments/1113800537402527903/1236803979996958740/11.png?ex=663956f7&is=66380577&hm=3b3c19a11adcb979517a133f2907f671305d23f1f5092cf7df043e6d5cab07bc&')
+            .setImage('https://media.discordapp.net/attachments/1300060849888559176/1300164175821275136/standard.gif?ex=671fd7bf&is=671e863f&hm=8771b2551d0ff9c95ff8fccb63156a5ef2fb33a2382561b5c3ab76fd1335fe46&=&width=550&height=220')
             .setTimestamp();
 
       return interaction.reply({ embeds: [embed] });
