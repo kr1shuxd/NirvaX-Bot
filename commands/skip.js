@@ -18,7 +18,7 @@ async function skip(client, interaction) {
         player.stop();
 
         const embed = new EmbedBuilder()
-            .setColor(config.embedColor)
+            .setColor('#ff0000')
             .setDescription('**⏭️ Player will play the next song!**');
 
         await interaction.reply({ embeds: [embed] });
