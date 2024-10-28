@@ -259,7 +259,6 @@ function initializePlayer(client) {
         if (autoplay) {
             player.autoplay(player);
         } else {
-            player.destroy();
             const queueEmbed = new EmbedBuilder()
                 .setColor(config.embedColor)
                 .setDescription('**Queue Songs ended! Disconnecting Bot!**');
