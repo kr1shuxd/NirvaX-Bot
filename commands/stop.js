@@ -19,7 +19,7 @@ async function stop(client, interaction) {
         player.destroy();
 
         const embed = new EmbedBuilder()
-            .setColor(config.embedColor)
+            .setColor('#ff0000')
             .setDescription('**⏹️ Playback has been stopped and player destroyed!**');
 
         await interaction.reply({ embeds: [embed] });
