@@ -93,7 +93,7 @@ async function lyrics(client, interaction) {
             return new EmbedBuilder()
                 .setTitle(`${lyricTitle} by ${lyricAuthor} Lyrics`)
                 .setDescription(lyricsArray[page])
-                .setColor(config.embedColor)
+                .setColor('#ff0000')
                 .setThumbnail(lyricThumbnail)
                 .setFooter({ text: `Page ${page + 1} of ${lyricsArray.length} | Requested by ${interaction.user.tag}` })
                 .setTimestamp();
