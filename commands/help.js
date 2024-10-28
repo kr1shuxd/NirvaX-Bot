@@ -52,7 +52,7 @@ Your ultimate music companion on Discord. Here are the available commands:
       `;
 
       const embed = new EmbedBuilder()
-        .setColor(config.embedColor)
+        .setColor('#ff0000')
         .setTitle(`${botName} Help`)
         .setThumbnail(client.user.displayAvatarURL()) 
         .setDescription(helpDescription)
