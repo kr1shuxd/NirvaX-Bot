@@ -18,7 +18,7 @@ async function resume(client, interaction) {
         player.pause(false);
 
         const embed = new EmbedBuilder()
-            .setColor(config.embedColor)
+            .setColor('#ff0000')
             .setDescription('**▶️ Playback has been resumed!**');
 
         await interaction.reply({ embeds: [embed] });
