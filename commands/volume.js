@@ -23,7 +23,7 @@ async function volume(client, interaction) {
         player.setVolume(volume);
 
         const embed = new EmbedBuilder()
-            .setColor(config.embedColor)
+            .setColor('#ff0000')
             .setDescription(`🔊 Volume has been set to **${volume}%**`);
 
         return interaction.reply({ embeds: [embed] });
