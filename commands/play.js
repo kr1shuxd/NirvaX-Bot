@@ -101,7 +101,7 @@ async function play(client, interaction) {
         }
 
         const randomEmbed = new EmbedBuilder()
-            .setColor(config.embedColor)
+            .setColor('#ff0000')
             .setAuthor({
                 name: 'Request Update',
                 iconURL: config.CheckmarkIcon,
